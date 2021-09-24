@@ -1,0 +1,19 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+    background-color: hotpink;
+}
+
+canvas {
+    margin-top:100px;
+    animation-name: neon_background;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes neon_background {
+    from{box-shadow: 1px 1px 38px hotpink;}
+    to{box-shadow: 1px 1px 38px red;}
+}
